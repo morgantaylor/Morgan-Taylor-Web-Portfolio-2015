@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Morgan Taylor is a Web Designer who lives in the San Francisco Bay Area. View her portfolio to see her projects and resume.">
+<meta name="keywords" content="morgan, taylor, morgan taylor, web, design, web design, HTML, CSS, HTML5, CSS3, wireframe, mockup, visual design, visual, design">
+<meta name="author" content="Morgan Taylor">
+<title>Morgan Taylor Web Design</title>
+
+<link href="new-css/normalize.css" rel="stylesheet" type="text/css">
+<link href="new-css/icomoon.css" rel="stylesheet" type="text/css">
+<link href="new-css/et-line.css" rel="stylesheet" type="text/css">
+<link href="stylesvs2.css" rel="stylesheet" type="text/css">
+<link href="typesetting.css" rel="stylesheet" type="text/css">
+<!-- Google Analytics -->   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59231699-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+</head>
+<body>
+  <? include("manage_contacts.php") ?>	
+  <div class="container"><!--main container-->
+  	<nav class="typesettings">
+    <h1><a href="http://www.mtwebmedia.com/">Morgan Taylor</a></h1>
+    <h2>Web Designer</h2>
+  		<ul class="masthead-nav">
+            <a href="http://www.linkedin.com/in/morganataylor/" title="linkedin" target="_blank">
+                <li class="icon-linkedin"></li>
+            </a>
+            <a href="http://www.pinterest.com/mataylor8/" title="pinterest" target="_blank">
+                <li class="icon-pinterest"></li>
+            </a>
+            <a href="https://plus.google.com/117467068506133069236/about" title="google plus" target="_blank">
+                <li class="icon-google-plus"></li>
+            </a>
+            <a href="https://www.twitter.com/share/" title="twitter" target="_blank">
+                <li class="icon-twitter"></li>
+            </a>
+        </ul>
+  	</nav>
+    <nav class="typesettings home">
+      <ul class="navigation">
+          <li><a href="http://www.mtwebmedia.com/about.html">
+              <button type="button"><p>About</p></button>
+          </a></li>
+      	  <li><a href="http://www.mtwebmedia.com/work.html">
+          	  <button type="button"><p>Work</p></button>
+          </a></li>
+          <li><a href="http://www.mtwebmedia.com/studies.html">
+          	  <button type="button"><p>Studies</p></button>
+          </a></li>
+          <li><a href="http://www.mtwebmedia.com/contact.php">
+          	  <button type="button"><p>Contact</p></button>
+          </a></li>
+      </ul>
+    </nav>
+    <section class="typesettings">
+    <? include("form.php"); ?>
+    </section>
+</div><!--main container-->
+<footer class="typesettings footer">
+    <h6>Designed by Morgan Taylor &copy; 2015</h6>
+</footer>
+</body>
+</html>
